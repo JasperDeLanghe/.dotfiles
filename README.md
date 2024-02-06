@@ -25,7 +25,13 @@ git clone git@github.com:JasperDeLanghe/.dotfiles.git ~/.dotfiles
 git clone https://github.com/JasperDeLanghe/.dotfiles.git ~/.dotfiles
 ```
 
-3. Create symlinks in the Home directory to the real files in the repo.
+3. Install oh-my-zsh.
+
+```zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+4. Create symlinks in the Home directory to the real files in the repo.
 
 ```zsh
 # There are better and less manual ways to do this;
@@ -33,12 +39,6 @@ git clone https://github.com/JasperDeLanghe/.dotfiles.git ~/.dotfiles
 
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-```
-
-4. Install oh-my-zsh.
-
-```zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 **Todo: add Brewfile from my macbook**
@@ -70,7 +70,13 @@ git clone git@github.com:JasperDeLanghe/.dotfiles.git ~/.dotfiles
 git clone https://github.com/JasperDeLanghe/.dotfiles.git ~/.dotfiles
 ```
 
-2. Create symlinks in the Home directory to the real files in the repo.
+2. Install oh-my-zsh.
+
+```zsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+3. Create symlinks in the Home directory to the real files in the repo.
 
 ```zsh
 # There are better and less manual ways to do this;
@@ -78,10 +84,4 @@ git clone https://github.com/JasperDeLanghe/.dotfiles.git ~/.dotfiles
 
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-```
-
-3. Install oh-my-zsh.
-
-```zsh
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
