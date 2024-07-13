@@ -104,3 +104,21 @@ if [ -e .nvmrc ]
 then
   nvm use
 fi
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Bootdev worldbanc
+export PATH="$PATH:$HOME/Learning/bootdev/worldbanc/private/bin"
+
+# Go
+export PATH="$PATH:$HOME/.local/opt/go/bin"
+
+# Go packages
+export PATH="$PATH:$HOME/go/bin"
+
+# Custom scripts
+export PATH="$PATH:$HOME/bin"
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+alias cn="$HOME/bin/create_note.sh"

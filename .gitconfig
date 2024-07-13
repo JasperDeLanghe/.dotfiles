@@ -1,3 +1,8 @@
 [user]
 	name = Jasper De Langhe
 	email = 25288931+JasperDeLanghe@users.noreply.github.com
+	defaultBranch = main
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
