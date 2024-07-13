@@ -116,9 +116,9 @@ export PATH="$PATH:$HOME/.local/opt/go/bin"
 export PATH="$PATH:$HOME/go/bin"
 
 # Custom scripts
-export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$HOME/.dotfiles/bin"
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
-alias cn="$HOME/bin/create_note.sh"
+alias cn="$HOME/.dotfiles/bin/create_note.sh"
