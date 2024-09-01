@@ -70,7 +70,7 @@ ZSH_THEME="gozilla"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git npm nvm node direnv brew)
+plugins=(git npm nvm node direnv brew docker)
 
 source $ZSH/oh-my-zsh.sh
 
