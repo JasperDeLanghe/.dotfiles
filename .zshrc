@@ -100,6 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
+
 if [ -e .nvmrc ]
 then
   nvm use
@@ -115,6 +117,9 @@ export PATH="$PATH:$HOME/.local/opt/go/bin"
 # Go packages
 export PATH="$PATH:$HOME/go/bin"
 
+# Brew
+export PATH=/opt/homebrew/bin:$PATH
+
 # Custom scripts
 export PATH="$PATH:$HOME/.dotfiles/bin"
 
@@ -122,3 +127,5 @@ export PATH="$PATH:$HOME/.dotfiles/bin"
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
 alias cn="$HOME/.dotfiles/bin/create_note.sh"
+
+alias hm-tools="node ~/henchman/scripts/lib/cli.js"
