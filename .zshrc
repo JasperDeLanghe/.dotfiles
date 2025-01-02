@@ -109,7 +109,7 @@ fi
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # Bootdev worldbanc
-export PATH="$PATH:$HOME/Learning/bootdev/worldbanc/private/bin"
+export PATH="$PATH:$HOME/worldbanc/private/bin"
 
 # Go
 export PATH="$PATH:$HOME/.local/opt/go/bin"
