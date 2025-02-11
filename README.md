@@ -31,7 +31,12 @@ git clone https://github.com/JasperDeLanghe/.dotfiles.git ~/.dotfiles
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-4. Create symlinks in the Home directory to the real files in the repo.
+4. Install the following applications:
+
+   1. [Wezterm](https://wezterm.org/)
+   2. [Starship](http://starship.rs/)
+
+5. Create symlinks in the Home directory to the real files in the repo.
 
 ```zsh
 # There are better and less manual ways to do this;
@@ -77,7 +82,12 @@ git clone https://github.com/JasperDeLanghe/.dotfiles.git ~/.dotfiles
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-3. Create symlinks in the Home directory to the real files in the repo.
+3. Install the following applications:
+
+   1. [Wezterm](https://wezterm.org/)
+   2. [Starship](http://starship.rs/)
+
+4. Create symlinks in the Home directory to the real files in the repo.
 
 ```zsh
 # There are better and less manual ways to do this;

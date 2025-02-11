@@ -129,3 +129,5 @@ export PATH="$PATH:/Applications/WezTerm.app/Contents/MacOS"
 alias cn="$HOME/.dotfiles/bin/create_note.sh"
 
 alias hm-tools="node ~/henchman/scripts/lib/cli.js"
+
+eval "$(starship init zsh)"
