@@ -70,7 +70,7 @@ ZSH_THEME="gozilla"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git npm nvm node direnv brew docker)
+plugins=(git npm nvm node brew docker direnv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,9 +108,6 @@ then
 fi
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-# Bootdev worldbanc
-export PATH="$PATH:$HOME/worldbanc/private/bin"
-
 # Go
 export PATH="$PATH:$HOME/.local/opt/go/bin"
 
@@ -122,6 +119,9 @@ export PATH=/opt/homebrew/bin:$PATH
 
 # Custom scripts
 export PATH="$PATH:$HOME/.dotfiles/bin"
+
+# Wezterm (macOS)
+export PATH="$PATH:/Applications/WezTerm.app/Contents/MacOS"
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
