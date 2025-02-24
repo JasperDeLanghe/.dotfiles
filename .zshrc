@@ -134,4 +134,6 @@ alias search-db="AWS_PROFILE=plateu-prod:Henchman-DeveloperAccess ~/henchman/ops
 
 alias core-db="AWS_PROFILE=plateu-prod:Henchman-DeveloperAccess ~/henchman/ops/scripts/bastion_port_forward.sh stag core-db default"
 
+alias core-db-uat="AWS_PROFILE=plateu-prod:Henchman-DeveloperAccess ~/henchman/ops/scripts/bastion_port_forward.sh uat core-db default"
+
 eval "$(starship init zsh)"
