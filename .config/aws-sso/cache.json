@@ -1,0 +1,138 @@
+{
+  "Version": 4,
+  "ConfigCreatedAt": 1740400273,
+  "SSO": {
+    "Default": {
+      "LastUpdate": 1740400280,
+      "ConfigHash": "9c9cd4bda3a65c7f1c31ba9aba7a8b61583136b4b09dc6b7887f5063780b2ca3",
+      "Roles": {
+        "Accounts": {
+          "253490783469": {
+            "Alias": "platca-prod",
+            "EmailAddress": "aws+platca-prod@henchman.io",
+            "Roles": {
+              "Henchman-DeveloperAccess": {
+                "Arn": "arn:aws:iam::253490783469:role/Henchman-DeveloperAccess",
+                "Tags": {
+                  "AccountAlias": "platca-prod",
+                  "AccountID": "253490783469",
+                  "Email": "aws+platca-prod@henchman.io",
+                  "Role": "Henchman-DeveloperAccess"
+                }
+              }
+            }
+          },
+          "301940996188": {
+            "Alias": "platus-prod",
+            "EmailAddress": "aws+platus-prod@henchman.io",
+            "Roles": {
+              "Henchman-DeveloperAccess": {
+                "Arn": "arn:aws:iam::301940996188:role/Henchman-DeveloperAccess",
+                "Tags": {
+                  "AccountAlias": "platus-prod",
+                  "AccountID": "301940996188",
+                  "Email": "aws+platus-prod@henchman.io",
+                  "Role": "Henchman-DeveloperAccess"
+                }
+              }
+            }
+          },
+          "324037283892": {
+            "Alias": "platau-prod",
+            "EmailAddress": "aws+platau-prod@henchman.io",
+            "Roles": {
+              "Henchman-DeveloperAccess": {
+                "Arn": "arn:aws:iam::324037283892:role/Henchman-DeveloperAccess",
+                "Tags": {
+                  "AccountAlias": "platau-prod",
+                  "AccountID": "324037283892",
+                  "Email": "aws+platau-prod@henchman.io",
+                  "Role": "Henchman-DeveloperAccess"
+                }
+              }
+            }
+          },
+          "507477147157": {
+            "Alias": "plateu-stag",
+            "EmailAddress": "aws+plateu-stag@henchman.io",
+            "Roles": {
+              "Henchman-PowerUserAccess": {
+                "Arn": "arn:aws:iam::507477147157:role/Henchman-PowerUserAccess",
+                "Tags": {
+                  "AccountAlias": "plateu-stag",
+                  "AccountID": "507477147157",
+                  "Email": "aws+plateu-stag@henchman.io",
+                  "Role": "Henchman-PowerUserAccess"
+                }
+              }
+            }
+          },
+          "609045607982": {
+            "Alias": "plateu-prod",
+            "EmailAddress": "aws+plateu-prod@henchman.io",
+            "Roles": {
+              "Henchman-DeveloperAccess": {
+                "Arn": "arn:aws:iam::609045607982:role/Henchman-DeveloperAccess",
+                "Expires": 1740403153,
+                "Tags": {
+                  "AccountAlias": "plateu-prod",
+                  "AccountID": "609045607982",
+                  "Email": "aws+plateu-prod@henchman.io",
+                  "Role": "Henchman-DeveloperAccess"
+                }
+              }
+            }
+          },
+          "794038213980": {
+            "Alias": "plateu-uat",
+            "EmailAddress": "aws+plateu-uat@henchman.io",
+            "Roles": {
+              "Henchman-DeveloperAccess": {
+                "Arn": "arn:aws:iam::794038213980:role/Henchman-DeveloperAccess",
+                "Tags": {
+                  "AccountAlias": "plateu-uat",
+                  "AccountID": "794038213980",
+                  "Email": "aws+plateu-uat@henchman.io",
+                  "Role": "Henchman-DeveloperAccess"
+                }
+              }
+            }
+          },
+          "863753438172": {
+            "Alias": "core-tools",
+            "EmailAddress": "aws+core-tools@henchman.io",
+            "Roles": {
+              "Henchman-DeveloperAccess": {
+                "Arn": "arn:aws:iam::863753438172:role/Henchman-DeveloperAccess",
+                "Tags": {
+                  "AccountAlias": "core-tools",
+                  "AccountID": "863753438172",
+                  "Email": "aws+core-tools@henchman.io",
+                  "Role": "Henchman-DeveloperAccess"
+                }
+              }
+            }
+          },
+          "905418261970": {
+            "Alias": "platsa-prod",
+            "EmailAddress": "aws+platsa-prod@henchman.io",
+            "Roles": {
+              "Henchman-DeveloperAccess": {
+                "Arn": "arn:aws:iam::905418261970:role/Henchman-DeveloperAccess",
+                "Tags": {
+                  "AccountAlias": "platsa-prod",
+                  "AccountID": "905418261970",
+                  "Email": "aws+platsa-prod@henchman.io",
+                  "Role": "Henchman-DeveloperAccess"
+                }
+              }
+            }
+          }
+        },
+        "SSORegion": "us-east-1",
+        "StartUrl": "https://lnlp.awsapps.com/start",
+        "DefaultRegion": ""
+      }
+    }
+  }
+}
