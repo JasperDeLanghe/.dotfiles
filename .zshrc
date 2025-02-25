@@ -130,10 +130,10 @@ alias cn="$HOME/.dotfiles/bin/create_note.sh"
 
 alias hm-tools="node ~/henchman/scripts/lib/cli.js"
 
-alias search-db="AWS_PROFILE=plateu-prod:Henchman-DeveloperAccess ~/henchman/ops/scripts/bastion_port_forward.sh stag search-db default"
+alias search-db="AWS_PROFILE=plateu-prod:Henchman-PowerUserAccess ~/henchman/ops/scripts/bastion_port_forward.sh dev search-db default"
 
-alias core-db="AWS_PROFILE=plateu-prod:Henchman-DeveloperAccess ~/henchman/ops/scripts/bastion_port_forward.sh stag core-db default"
+alias core-db="AWS_PROFILE=plateu-prod:Henchman-PowerUserAccess ~/henchman/ops/scripts/bastion_port_forward.sh dev core-db default"
 
-alias core-db-uat="AWS_PROFILE=plateu-prod:Henchman-DeveloperAccess ~/henchman/ops/scripts/bastion_port_forward.sh uat core-db default"
+alias core-db-uat="AWS_PROFILE=plateu-prod:Henchman-PowerUserAccess ~/henchman/ops/scripts/bastion_port_forward.sh uat core-db default"
 
 eval "$(starship init zsh)"
