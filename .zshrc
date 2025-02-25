@@ -126,14 +126,10 @@ export PATH="$PATH:/Applications/WezTerm.app/Contents/MacOS"
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
-alias cn="$HOME/.dotfiles/bin/create_note.sh"
+source "$HOME/.dotfiles/aliases/.shared"
 
-alias hm-tools="node ~/henchman/scripts/lib/cli.js"
-
-alias search-db="AWS_PROFILE=plateu-prod:Henchman-PowerUserAccess ~/henchman/ops/scripts/bastion_port_forward.sh dev search-db default"
-
-alias core-db="AWS_PROFILE=plateu-prod:Henchman-PowerUserAccess ~/henchman/ops/scripts/bastion_port_forward.sh dev core-db default"
-
-alias core-db-uat="AWS_PROFILE=plateu-prod:Henchman-PowerUserAccess ~/henchman/ops/scripts/bastion_port_forward.sh uat core-db default"
+if [ -f "$HOME/.dotfiles/aliases/.henchman" ]; then
+   source "$HOME/.dotfiles/aliases/.henchman"
+fi
 
 eval "$(starship init zsh)"
