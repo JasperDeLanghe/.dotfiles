@@ -102,11 +102,17 @@ source $ZSH/oh-my-zsh.sh
 
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
 
-if [ -e .nvmrc ]
-then
-  nvm use
-fi
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+autoload -U add-zsh-hook
+load-nvmrc() {
+  if [ -f .nvmrc ]; then
+    nvm use
+  fi
+}
+add-zsh-hook chpwd load-nvmrc
+
+load-nvmrc
+# export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="`yarn global bin`:$PATH"
 
 # Go
 export PATH="$PATH:$HOME/.local/opt/go/bin"
